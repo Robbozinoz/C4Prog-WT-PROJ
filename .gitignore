@@ -25,6 +25,7 @@ node_modules/
 connect.lock
 typings
 Evidence/
+src/
 
 # Logs
 logs
