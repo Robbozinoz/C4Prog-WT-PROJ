@@ -1,53 +1,54 @@
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Images, Tables and Intro to JS</title>
+    <title class="text-xl">Images, Tables and Intro to JS</title>
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
-  <body>
-    <header>
-      <h1>Welcome to Our Website</h1>
+  <body class="bg-gray-100">
+    <header class="bg-blue-500 p-4">
+      <h1 class="text-3xl text-white">Welcome to Our Website</h1>
       <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="mywork.html">Example Projects</a></li>
+        <ul class="flex space-x-4">
+          <li><a href="#" class="text-white">Home</a></li>
+          <li><a href="about.html" class="text-white">About</a></li>
+          <li><a href="projects.html" class="text-white">Projects</a></li>
+          <li><a href="resume.html" class="text-white">Resume</a></li>
+          <li><a href="mywork.html" class="text-white">Example Projects</a></li>
         </ul>
       </nav>
     </header>
-    <div class="container">
+    <div class="container mx-auto p-4">
       <section class="main-content">
-        <h2>Latest News</h2>
-        <div class="news-article">
-          <h3 class="highlight">New Product Launch</h3>
+        <h2 class="text-2xl">Latest News</h2>
+        <div class="news-article mt-4">
+          <h3 class="text-lg font-bold">New Product Launch</h3>
           <p>Our latest product is now available. Check it out!</p>
-          <a href="#" class="btn">Read More</a>
+          <a href="#" class="btn bg-blue-500 text-white py-2 px-4 rounded-lg">Read More</a>
         </div>
-        <div class="news-article">
-          <h3>Client Success Story</h3>
+        <div class="news-article mt-4">
+          <h3 class="text-lg">Client Success Story</h3>
           <p>Read about how our services helped a client achieve success.</p>
-          <a href="#" class="btn">Read More</a>
+          <a href="#" class="btn bg-blue-500 text-white py-2 px-4 rounded-lg">Read More</a>
         </div>
       </section>
-      <aside class="sidebar">
-        <h3>Upcoming Events</h3>
-        <ul>
-          <li><a href="#" data-event="technology">Tech Conference</a></li>
-          <li><a href="#" data-event="products">Product Workshop</a></li>
-          <li><a href="#" data-event="networking">Networking Mixer</a></li>
+      <aside class="sidebar mt-4">
+        <h3 class="text-xl">Upcoming Events</h3>
+        <ul class="mt-4">
+          <li><a href="#" data-event="technology" class="text-blue-500">Tech Conference</a></li>
+          <li><a href="#" data-event="products" class="text-blue-500">Product Workshop</a></li>
+          <li><a href="#" data-event="networking" class="text-blue-500">Networking Mixer</a></li>
         </ul>
       </aside>
-      <section>
-        <button id="button1">Click Me</button>
-        <button id="button2">Hover Over Me</button>
-        <button id="button3">Double Click Me</button>
+      <section class="mt-4">
+        <button id="button1" class="bg-blue-500 text-white py-2 px-4 rounded-lg">Click Me</button>
+        <button id="button2" class="bg-blue-500 text-white py-2 px-4 rounded-lg">Hover Over Me</button>
+        <button id="button3" class="bg-blue-500 text-white py-2 px-4 rounded-lg">Double Click Me</button>
       </section>
-      <section id="postContainer">
+      <section id="postContainer" class="mt-4">
       </section>
     </div>
-    <footer>
+    <footer class="bg-blue-500 text-white text-center py-2">
       <p>&copy; 2023 Your Company. All rights reserved.</p>
     </footer>
     <script type="module" src="assets/js/scalability_v2.js"></script>
